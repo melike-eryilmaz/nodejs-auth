@@ -1,0 +1,25 @@
+##Method test file .(REST CLİENT EXTENSİON)
+
+GET http://localhost:3000/users
+
+
+###
+
+POST  http://localhost:3000/users
+Content-Type : application/json
+
+{
+    "username":"Zafer",
+    "password":"zafer123"
+}
+
+
+###
+
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "username":"Zafer",
+    "password":"zafer123"
+}
